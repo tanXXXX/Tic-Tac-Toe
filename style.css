@@ -48,12 +48,15 @@ p{
 .boxes{
     border: 10px solid #cdb4db;
     border-radius: 20px;
-    height: 45%;
-    width: 50%;
+    height: 290px;
+    width: 290px;
     gap: 20px;
-    display: flex;
-    justify-content: center;
     align-items: center;
+    justify-items: center;;
+
+    display: grid;
+    /* grid-template-rows: repeat(3,1fr); */
+    grid-template-columns: repeat(3,1fr);
     flex-wrap: wrap;
     position: relative;
     top: 115px;
@@ -97,3 +100,5 @@ p{
 .hide{
     display: none;
 }
+
+/* @media  */
