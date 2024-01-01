@@ -38,6 +38,7 @@ p{
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     width: 40%;
+    width: 500px;
     height: 90%;
     background-color: #ffafcc;
     display: flex;
@@ -55,7 +56,6 @@ p{
     justify-items: center;;
 
     display: grid;
-    /* grid-template-rows: repeat(3,1fr); */
     grid-template-columns: repeat(3,1fr);
     flex-wrap: wrap;
     position: relative;
@@ -101,4 +101,15 @@ p{
     display: none;
 }
 
-/* @media  */
+@media (max-width: 800px){
+    .container{
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px){
+    .container{
+        width: 100%;
+        
+    }
+}
